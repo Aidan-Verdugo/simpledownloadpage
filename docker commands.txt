@@ -1,0 +1,4 @@
+Build:
+docker build -t mcsite .
+Run:
+docker run -dit --name mcsite -p 567:80 mcsite
