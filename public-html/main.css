@@ -1,0 +1,95 @@
+
+body{
+    background-color: #121212;
+    color:white;
+    font-family: "Noto Sans Display", sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.navbar{
+    background-color: rgba(74, 103, 65, 0.16);
+    
+    width: 100%;
+    position: fixed;
+    float: left;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans Display", sans-serif;
+}
+.navbar ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.navbar li{
+    float: left;
+}
+
+.navbar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14pt 16pt;
+    text-decoration: none;
+}
+
+.navbar li a:hover:not(.active){
+    background-color: #3f5a36;
+}
+
+.navbar .active{
+    background-color: #4a6741;
+}
+
+.pane-holder{
+    margin: 15pt;
+    margin-top: 50pt;
+    width: 98%;
+    overflow: hidden;
+    float: center;
+}
+
+.pane-right{
+    width:30%;
+    float: left;
+    
+}
+.pane-main{
+    width: 70%;
+    float: left;
+}
+.section{
+    padding: 12pt;
+    margin: 15pt;
+    background-color: rgba(74, 103, 65, 0.07);
+    width: fill;
+    border-radius: 5pt;
+    box-shadow: 0pt 0pt 12px #0c0c0c;
+    
+}
+.section-download{
+    padding: 12pt;
+    margin: 15pt;
+    background-color: rgba(74, 103, 65, 0.07);
+    width: fill;
+    border-radius: 5pt;
+    box-shadow: 0pt 0pt 12px #4a6741;
+}
+.download-button{
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: #4a6741;
+    padding-inline: 10pt;
+    padding-block: 5pt;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25pt;
+}
+.download-button:hover{
+    box-shadow: 0pt 0pt 12px #4a6741;
+}
